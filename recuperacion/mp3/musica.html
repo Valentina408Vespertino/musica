@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO </title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Registrar Nueva Canción</h1>
+    <form action="consulta.php" method="post">
+        <label for="nombre">Nombre de la Canción:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+
+        <label for="archivo">Archivo de la Canción:</label>
+        <input type="file" id="archivo" name="archivo" accept=".mp3, .wav" required><br><br>
+        
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>
